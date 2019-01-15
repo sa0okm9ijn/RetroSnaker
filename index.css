@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.chess_board{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: lightgray;
+    left: 50%;
+    margin-left: -250px;
+    font-size: 0px;
+    top: 100px;
+}
+.begin{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #abcedf;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.square{
+    /* 父元素设置font-size=0 */
+    display:inline-block;
+    background: gray;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+    border-left: 1px dashed lightgray;
+    border-top:1px dashed lightgray;
+}
+.ball{
+    display: none;
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+}
+.over_circle{
+    position:absolute;
+    width: 26px;
+    height: 26px;
+    left: -5px;
+    top:-5px;
+}
+.circle{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.circle span {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    line-height: 20px;
+    text-align: center;
+    transform-origin: 10px 10px 10px;
+    /*transform: rotateY(-45deg);*/
+}
