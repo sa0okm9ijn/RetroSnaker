@@ -1,6 +1,7 @@
 # RetroSnaker
 public class  from http://www.duyiedu.com/
 
-纯的JavaScript的的的的的贪吃蛇
-分为3D和2D，AI
-目前只完成了2D
+纯JavaScript实现的贪吃蛇
+
+有3D版和2D版，其中还涉及到了AI智能蛇
+目前只完成了2D版
